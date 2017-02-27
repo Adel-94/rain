@@ -1,0 +1,213 @@
+html,
+body {
+    margin: 0;
+}
+
+.main {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+[class*='col_'] {
+    float: left;
+}
+
+.col_1 {
+    width: 8.3333%;
+}
+
+.col_offset_1 {
+    margin-left: 8.3333%;
+}
+
+.col_2 {
+    width: 16.667%;
+}
+
+.col_offset_2 {
+    margin-left: 16.667%;
+}
+
+.col_3 {
+    width: 25%;
+}
+
+.col_offset_3 {
+    margin-left: 25%;
+}
+
+.col_4 {
+    width: 33.3333%;
+}
+
+.col_offset_4 {
+    margin-left: 33.3333%;
+}
+
+.col_5 {
+    width: 41.6667%;
+}
+
+.col_offset_5 {
+    margin-left: 41.6667%;
+}
+
+.col_6 {
+    width: 50%;
+}
+
+.col_offset_6 {
+    margin-left: 50%;
+}
+
+.col_7 {
+    width: 58.3333%;
+}
+
+.col_offset_7 {
+    margin-left: 58.3333%;
+}
+
+.col_8 {
+    width: 66.6667%;
+}
+
+.col_offset_8 {
+    margin-left: 66.6667%;
+}
+
+.col_9 {
+    width: 75%;
+}
+
+.col_offset_9 {
+    margin-left: 75%;
+}
+
+.col_10 {
+    width: 83.3333%;
+}
+
+.col_11 {
+    width: 91.6667%;
+}
+
+.col_12 {
+    width: 100%;
+}
+
+.margin_top_25 {
+    margin-top: 25px;
+}
+
+.full {
+    width: 100%;
+    background: #f9f7f9;
+}
+
+.col_6 .sec1 p {
+    color: #796767;
+}
+
+.col_6 .sec1 h2 {
+    color: #333333;
+}
+
+.col_6 .sec1 a {
+    color: white;
+}
+
+.btn {
+    background: #009cde;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.col_6 .sec1 .btn:hover {
+    border: 1px solid #009cde;
+    background: white;
+    color: #009cde;
+}
+
+.sec1 {
+    margin-left: 25px;
+}
+
+.four .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.four .flex .item {
+    width: 23%;
+}
+
+.margin_top_50 {
+    margin-top: 50px;
+}
+
+.flex .item h2 {
+    background: #009cde;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.flex .item h3 {
+    background: white;
+    border: 1px solid white;
+    color: #796767;
+    text-align: center;
+}
+
+.flex .item p {
+    background: #009cde;
+    padding: 25px 10px;
+    margin: 0;
+}
+
+.flex .item ul {
+    list-style-type: none;
+    text-align: center;
+    background: #008bc6;
+    margin: 0;
+    padding: 10px 15px;
+}
+
+.flex .item ul li {
+    display: inline;
+}
+
+.flex .item ul li i {
+    color: white;
+    font-size: 25px;
+    width: 40px;
+    height: 30px;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.flex .item {
+    border: 3px solid #d9d9d6;
+}
+
+.flex .item ul li i:hover {
+    background: darkblue;
+    color: white;
+    border: none;
+}
+
+.img1 {
+    max-width: 100%;
+}
+
+.flex .item img:hover {
+    transform: scale(1, 2);
+}
